@@ -1,9 +1,15 @@
+#include "../techniques.hpp"
+#include "../../types.hpp"
+#include "../../modules/cpu.hpp"
+#include "../../modules/util.hpp"
+#include "../../includes.hpp"
+
 /**
  * @brief Check CPUID output of manufacturer ID for known VMs/hypervisors at leaf 0 and 0x40000000-0x40000100
  * @category x86
  * @implements VM::VMID
  */
-[[nodiscard]] static bool vmid() {
+[[nodiscard]] bool techniques::vmid() {
 #if (!x86)
     return false;
 #else
