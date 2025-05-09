@@ -1,0 +1,11 @@
+// yes, this is a main.hpp and not a main.cpp. Deal with it. 
+#include 
+
+
+MSVC_DISABLE_WARNING(ASSIGNMENT_OPERATOR NO_INLINE_FUNC SPECTRE)
+
+struct VM {
+
+}
+
+MSVC_ENABLE_WARNING(ASSIGNMENT_OPERATOR NO_INLINE_FUNC SPECTRE)

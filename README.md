@@ -259,6 +259,14 @@ You can view the full docs [here](docs/documentation.md). All the details such a
 
 </details>
 
+<details>
+<summary>The .exe closes the moment I run the executable</summary>
+<br>
+
+> This happens because you need to run the executable from the terminal, and not by double clicking on the executable file. It might sound obvious to some people, but this was asked multiple times.
+
+</details>
+
 <br>
 
 ## Issues, discussions, pull requests, and inquiries 📬
